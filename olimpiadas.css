@@ -1,0 +1,199 @@
+/* Geral */
+body{
+	font-family: 'Lucida Sans', Arial, Sans-Serif;
+	background-color:#1E90FF ;
+	color: ;
+	margin: 0;
+}
+
+/* Header  */
+
+
+#geral{
+	right: 20em;
+	top: 1%;
+	margin-top: 15px;
+	color: white;
+	height: 174px;
+  	border: 2px solid darkgray;
+  	color: #000; text-shadow: 1px 1px 0 #fff;
+  	background-color: #CD0000;
+  	text-align: center;
+}
+
+
+/* Menu  */
+
+.navegacao{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 80px;
+	background-color: #1E90FF;
+}
+
+.nav-lista{
+	margin-left: 150px;
+	margin-top:1em;
+}
+
+.nav-lista-item{
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	font-family: Verdana, Geneva, Arial, Tahoma, Sans-Serif;
+	padding: 7px;
+}
+
+.nav-link{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+
+}
+
+.nav-link:hover{
+	color: #FF4500
+}
+
+
+
+
+
+
+/* seção - Conteúdo  */
+
+.secao-body{
+	background-size: 40%;
+	background-color: #F8F8FF ;
+	margin-top: 24px;
+	width: 66em;
+	margin-left: 8em;
+	padding: 25px;
+}
+
+.img1{
+	width: 450px;
+	left: 32em;
+	position: relative;
+}
+
+.img2{
+	width: 450px;
+}
+
+.fig-caption{
+	text-align: right;
+	margin-right: 5em;
+}
+
+.texto{
+	color: indianred;
+}
+
+.titulo{
+	font-size: 25px;
+	font-family: Cookie;
+	text-decoration: underline;
+}
+
+
+
+/* Footer */
+
+.footer{
+	position: relative;
+	padding: 20px;
+
+}
+.footer-sessao{
+	display: inline-block;
+	width: 32%;
+
+
+}
+
+#copyriht{
+	position: relative;
+	bottom:0;
+	font-size: small;
+	margin-left: 24em;
+	font-size: 15px;
+}
+
+
+/* Pagina outros esportes */
+
+/* Menu  */
+
+.nav-lista1{
+	margin-left: 145px;
+	margin-top:1em;
+}
+
+
+/* Pagina Formulario */
+
+
+fieldset{
+	margin-top: 10px;
+	margin-left: 128px;
+	margin-right: 114px;
+	background-color: white;
+}
+
+legend{
+	font-size: 30px;	
+}
+
+input,textarea,select{
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2) 
+	font-size: 15px;
+	padding: 10px;
+	margin: 8px;
+	box-sizing: border-box;
+
+}
+
+label{
+	font-size: 18px;
+}
+
+input:focus,textarea:focus,select:focus{
+	background: #FFC;
+}
+
+input[type=text]{
+	background-position: 10px 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	padding-left: 20px; 
+}
+
+input[type='submit'],input[type='reset']{
+	font-size: 1.5em;
+	background-color: gray;
+	border: 0;
+	border-radius: 8px;
+	color: #FFF;
+	padding: 0.2em 0.6em;
+	box-shadow: 2px 2px 2px red;
+}
+
+input[type='submit']:hover,input[type='reset']:hover{
+	background-color: rgb(34,158,180);
+}
+
+select,input[type='checkbox'],input[type='radio']{
+	cursor: pointer;
+}
+
+.formulario{
+	margin-top: 10px;
+	margin-left: 128px;
+	margin-right: 114px;
+	background-color: white;
+}

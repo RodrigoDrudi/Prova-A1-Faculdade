@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt_br">
+<meta charset="utf-8">
+<link href="olimpiadas.css" rel="stylesheet">
+<head>
+	<link rel="icon" type="imagem/gif" href="https://www.infoescola.com/wp-content/uploads/2007/10/jogos-olimpicos-450x225.png">
+	<title>Esportes Olimpicos</title>
+</head>
+<body>
+	<!-- Cabeçalho -->
+
+	<section id="geral">
+		<div>
+		<header id = "bannergeral">
+
+			<img src="imagens/banner.png" >
+		</header>
+		</div>
+	</section>
+
+	<!-- MENU -->
+
+		<nav class="navegação">
+			<ul class="nav-lista">
+				<li class="nav-lista-item">
+					<a class="nav-link" href="index.html">Voltar para a pagina Inicial</a> 
+				</li>
+			</ul> 
+		</nav>
+
+	<!-- Seção Body  -->
+
+
+	<form action="xx" method="post">
+    	<fieldset>
+        	<legend>Contato</legend>
+        	<label for="nome"> Nome: </label>
+        	<input type="text" name="Nome" id="nome" size= "50px" required placeholder="Nome Completo">
+	<br>
+
+        <label for="nome"> RG </label>
+        <input type="text" name="Nome" id="nome" size= "25px" required placeholder="rg">
+	<br>
+        <label for="dataNascimento"> Data Nasc: </label>
+        <input type="date" name="dataNascimento" id="dataNascimento" placeholder="DD/MM/AA">
+	<br>
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo" value="F" id="sexoFeminino"> <label for="sexoFeminino">Feminino</label>
+        <input type="radio" name="sexo" value="M" id="sexoMasculino"> <label for="sexoMasculino">Masculino</label>
+        <input type="radio" name="sexo" value="M" id="sexoIndefinido"> <label for="sexoIndefinido">Prefiro não Responder</label>
+<br>
+        <label for="Contato"> Contato: </label>
+        <input type="checkbox" name="telefone" id="telefone"><label for="telefone">Telefone</label>
+        <input type="checkbox" name="e-mail" id="e-mail"><label for="e-mail">E-mail</label>
+        <input type="text" name="Contato" id="contato" size="30px">
+       <br>
+      <br>
+      <label for="interesse"> Esporte Escolhido para a Olimpiada</label>
+      <select name = "interesse" id="interesse">
+      	<option value="skate"> Skate</option>
+      	<option value="atletismo"> Atletismo</option>
+      	<option value="natacao"> Natação</option>
+      	<option value="outros"> Outros </option>
+      </select>
+<br>
+<br>
+      <label for="mensagem">Descreva Suas Atividades de Treino:</label>  
+<br>
+	<textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+<br>
+	<input type="submit" name="btnEnvio" value="Enviar">
+	&nbsp;&nbsp;
+	<input type="reset" name="btnReset" value="reset">
+
+    </fieldset>
+  
+
+  <!-- Footer -->
+<div class="formulario">
+		<footer class="footer"> 
+	 <section class="footer-sessao">
+        <h3> Nome </h3>
+        <p>Rodrigo Drudi de Carvalho </p>
+    </section>
+    <section class="footer-sessao">
+        <h3>Curso</h3>
+        <p>Analise e Desenvolvimento de Sistemas </p>
+    </section>
+    <section class="footer-sessao">
+        <h3>RGM</h3>
+        <p>26079500</p>
+    </section>
+		</footer>
+		<p id="copyriht"> Copyrigth &copy; 2021. Rodrigo Drudi</p>
+	</div>
+
+</body>
+</html>
